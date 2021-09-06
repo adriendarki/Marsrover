@@ -1,13 +1,16 @@
 {
-    "name": "mars",
-    "version": "1.0.0",
-    "description": "A Mars Rover coding exercise",
-    "main": "app/index.js",
-    "scripts": {
-        "test": "./node_modules/.bin/jasmine-node app --autotest",
-        "start": "node app/index.js"
-    },
-    "devDependencies": {
-        "jasmine": "^3.9.0"
-    }
+  "name": "mars",
+  "version": "1.0.0",
+  "description": "A Mars Rover coding exercise",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node app --autotest",
+    "start": "node app/index.js"
+  },
+  
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "node": "0.0.0",
+    "q": "^1.4.1"
+  }
 }
