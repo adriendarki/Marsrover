@@ -6,5 +6,8 @@
     "scripts": {
         "test": "./node_modules/.bin/jasmine-node app --autotest",
         "start": "node app/index.js"
+    },
+    "devDependencies": {
+        "jasmine": "^3.9.0"
     }
 }
